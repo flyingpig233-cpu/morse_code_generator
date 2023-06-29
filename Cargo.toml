@@ -1,0 +1,15 @@
+[package]
+name = "morse_code_generator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rodio = "0.17.1"
+hound = "3.5.0"
+fltk = { version = "^1.4", features = ["fltk-bundled"] }
+small_morse = "0.1.0"
+
+[features]
+console = []
